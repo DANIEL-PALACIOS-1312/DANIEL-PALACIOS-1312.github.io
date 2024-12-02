@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://example.com/tu-imagen-de-fondo.jpg'); /* Cambia esta URL por la de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    color: #333;
+}
+
+header {
+    background-color: rgba(255, 204, 0, 0.8); /* Color de fondo con opacidad */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.lego-types {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad para que se vea la imagen detrás */
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff6600;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e6e6e6;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+li img {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #ffcc00;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 204, 0, 0.8); /* Color de fondo con opacidad */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
