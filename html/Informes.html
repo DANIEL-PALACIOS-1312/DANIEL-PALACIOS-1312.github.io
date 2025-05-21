@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Hamburguesa</title>
+    <link rel="stylesheet" href="../css/informes.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1><img src="../imagenes/logo.png" alt="logo" href="./Inicio.html" >olibar</h1>
+            <div class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./Inicio.html">Inicio</a></li>
+                <li><a href="./Instalacio.html">Instalacio</a></li>
+                <li><a href="./Configuracion.html">Configuracion</a></li>
+                <li><a href="./Informes.html">Informes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main class="reports-guide">
+    <section class="reports-intro">
+        <h2>Elaboración y Exportación de Informes en Dolibarr</h2>
+        <p>Dolibarr permite generar informes detallados de pagos y exportar la información para su análisis. Sigue estos pasos para crear y descargar tus informes financieros.</p>
+    </section>
+
+    <section class="access-reports">
+        <h2>Paso 1: Acceso a la Sección de Informes</h2>
+        <div class="step-item">
+            <h3>1.1 Navegación a Informes de Pagos</h3>
+            <p>Para llegar a donde podemos hacer y exportar los informes en el menú de arriba nos vamos al apartado de financias y después en el menú de la izquierda en la factura que quieres crear y exportar el informe pinchas en pagos y en informes. Para crear el informe de la fecha que queramos solo hay que especificar la fecha y darle a crear y para exportar el informe solo hay que pinchar en cima y se empieza a descargar</p>
+            <figure>
+                <img src="../imagenes/21.png" alt="Dolibarr Reports Menu" class="report-image">
+                <figcaption>Navegación al apartado de informes de pagos en Dolibarr.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    
+    </section>
+</main>
+    
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburgerMenu.addEventListener('click', () => {
+        hamburgerMenu.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
+});
+</script>
+</html>
